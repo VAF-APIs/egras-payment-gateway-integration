@@ -1,0 +1,9 @@
+[project]
+name = "egras-payment-gateway-integration"
+version = "1.0.0"
+description = "eGRAS payment gateway integration starter in Python (FastAPI) with a working mock, by Visual App Foundry"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
